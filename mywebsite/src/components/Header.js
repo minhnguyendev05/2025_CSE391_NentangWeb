@@ -6,22 +6,22 @@ const Header = () => {
             <div className="container">
                 <div className="d-flex justify-content-between align-items-center">
                     {/* Logo */}
-                    <a href="#" className="text-white text-decoration-none h3">Logo</a>
+                    <a href="/" className="text-white text-decoration-none h3">Logo</a>
                     
                     {/* Navbar */}
                     <nav>
                         <ul className="nav">
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Trang chủ</a>
+                                <a className="nav-link text-white" href="/">Trang chủ</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Giới thiệu</a>
+                                <a className="nav-link text-white" href="/">Giới thiệu</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Dịch vụ</a>
+                                <a className="nav-link text-white" href="/">Dịch vụ</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Liên hệ</a>
+                                <a className="nav-link text-white" href="/">Liên hệ</a>
                             </li>
                         </ul>
                     </nav>

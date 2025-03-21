@@ -4,10 +4,9 @@ const LoginForm = () => {
   // State để lưu trữ giá trị email và password
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Xử lý đăng nhập (gửi email và mật khẩu lên backend hoặc validation)
     console.log('Email:', email);
     console.log('Password:', password);
   };
